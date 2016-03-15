@@ -1,0 +1,30 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/jquery.min.js", "js/q.min.js", "js/q.tiledb.js", "js/background.js", "js/tilebkp.js", "js/tilemodel.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "inicio.html"
+   },
+   "content_security_policy": "script-src 'self' https://*.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_aext_descr__",
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "24": "img/icon_24.png",
+      "48": "img/icon_48.png",
+      "64": "img/icon_64.png",
+      "96": "img/icon_96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/ADJGTpVwVJuh0VV0PCDnGdKsr8HDrM+4vwPzH/xCqJrtt5AubC1KJ7QwVnZP59bcKRkwC/tvnwlHCqa5bcPrn3d8uf4/5PZNG+uf2UlnT2QQ5m8kDyNGLDVly0jajNMuKYwK7FSb35B65kFs46ZBGAbLP0N6mybDYK0F0WHE/QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "25.0.0.0",
+   "name": "__MSG_aext_name__",
+   "optional_permissions": [ "tabs", "bookmarks" ],
+   "options_page": "opciones.html",
+   "permissions": [ "management", "\u003Call_urls>", "storage", "unlimitedStorage", "clipboardWrite" ],
+   "short_name": "__MSG_aext_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0"
+}
